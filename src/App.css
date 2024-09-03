@@ -1,19 +1,42 @@
-/* General Styling */
-body {
+/* CSS Variables */
+:root {
+	--bg-color: #f4f4f4;
+	--text-color: #333;
+	--container-bg-color: #fff;
+	--button-bg-color: #007BFF;
+	--button-text-color: #fff;
+	--label-bg-color: #f9f9f9;
+	--label-hover-bg-color: #f1f1f1;
+	--score-color: #28a745;
+  }
+  
+  body.dark-mode {
+	--bg-color: #121212;
+	--text-color: #f4f4f4;
+	--container-bg-color: #1e1e1e;
+	--button-bg-color: #1a73e8;
+	--button-text-color: #f4f4f4;
+	--label-bg-color: #2c2c2c;
+	--label-hover-bg-color: #3c3c3c;
+	--score-color: #4caf50;
+  }
+  
+  /* General Styling */
+  body {
 	font-family: 'Arial', sans-serif;
-	background-color: #f4f4f4;
+	background-color: var(--bg-color);
 	margin: 0;
 	padding: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	color: #333;
+	color: var(--text-color);
   }
   
   /* Container Styling */
   .container {
-	background-color: #fff;
+	background-color: var(--container-bg-color);
 	padding: 2rem;
 	border-radius: 8px;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -23,11 +46,40 @@ body {
 	margin: 0 auto;
   }
   
+  /* Dark Mode Toggle */
+  .dark-mode-toggle {
+	background-color: rgba(255, 255, 255);
+	color: rgba(0, 0, 0);
+	border: none;
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	font-size: 1rem;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 1000;
+  }
+
+  .dark-mode-toggle-dark {
+	background-color: rgb(0, 0, 0);
+	color: rgba(255, 255, 255);
+	border: none;
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	font-size: 1rem;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 1000;
+  }
+  
   /* Header Styling */
   h1, h2 {
 	margin: 0;
 	margin-bottom: 1.5rem;
-	color: #007BFF;
+	color: var(--button-bg-color);
   }
   
   /* Question Text */
@@ -51,19 +103,19 @@ body {
 	margin-bottom: 0.75rem;
 	cursor: pointer;
 	padding: 10px;
-	background-color: #f9f9f9;
+	background-color: var(--label-bg-color);
 	border-radius: 4px;
 	transition: background-color 0.2s ease;
   }
   
   label:hover {
-	background-color: #f1f1f1;
+	background-color: var(--label-hover-bg-color);
   }
   
   /* Button Styling */
   button {
-	background-color: #007BFF;
-	color: #fff;
+	background-color: var(--button-bg-color);
+	color: var(--button-text-color);
 	border: none;
 	border-radius: 4px;
 	padding: 0.75rem 1.5rem;
@@ -80,6 +132,6 @@ body {
   p {
 	font-size: 1.25rem;
 	font-weight: bold;
-	color: #28a745;
+	color: var(--score-color);
   }
   
