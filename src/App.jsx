@@ -94,7 +94,7 @@ const App = () => {
               ))}
             </form>
             <button onClick={handleSubmit} disabled={!selectedOption}>
-              Submit
+              {currentQuestionIndex < questions.length - 1 ? 'Next' : 'Submit'}
             </button>
           </div>
         )
