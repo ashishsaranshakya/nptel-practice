@@ -1,0 +1,102 @@
+[
+    {
+        "question": "I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about:",
+        "options": [
+            "Autophagy",
+            "Allelophagy",
+            "Autopathy",
+            "Allelopathy"
+        ],
+        "correctAnswer": "Allelopathy"
+    },
+    {
+        "question": "Which of these is a physical factor of habitat?",
+        "options": [
+            "Soil",
+            "Moisture",
+            "Predators",
+            "Temperatures"
+        ],
+        "correctAnswer": "Temperatures"
+    },
+    {
+        "question": "\"The rate of biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor\" this is the statement for:",
+        "options": [
+            "Liebig's law of minimum",
+            "Liebig's law of maximum",
+            "Shelford's law of tolerance",
+            "Shelford's law of intolerance"
+        ],
+        "correctAnswer": "Liebig's law of minimum"
+    },
+    {
+        "question": "Transplantation experiments are used to find:",
+        "options": [
+            "Potential range",
+            "Effective range",
+            "Actual range",
+            "Economic range"
+        ],
+        "correctAnswer": "Potential range"
+    },
+    {
+        "question": "\"Quick movement over large distances, often across unsuitable terrain\" is a definition of:",
+        "options": [
+            "Diffusion",
+            "Secular dispersal",
+            "Jump dispersal",
+            "Drifting"
+        ],
+        "correctAnswer": "Jump dispersal"
+    },
+    {
+        "question": "The movement of lions across the Gir landscape is an example of:",
+        "options": [
+            "Diffusion",
+            "Secular dispersal",
+            "Jump dispersal",
+            "Drifting"
+        ],
+        "correctAnswer": "Diffusion"
+    },
+    {
+        "question": "Good climate is a:",
+        "options": [
+            "Chemical factor",
+            "Demographic factor",
+            "Push factor",
+            "Pull factor"
+        ],
+        "correctAnswer": "Pull factor"
+    },
+    {
+        "question": "Scarcity of food is a:",
+        "options": [
+            "Chemical factor",
+            "Demographic factor",
+            "Push factor",
+            "Pull factor"
+        ],
+        "correctAnswer": "Push factor"
+    },
+    {
+        "question": "\"The geographical distribution of a species will be controlled by that environment factor for which the organism has the narrowest range of tolerance\" this is the statement for:",
+        "options": [
+            "Liebig's law of minimum",
+            "Liebig's law of maximum",
+            "Shelford's law of tolerance",
+            "Shelford's law of intolerance"
+        ],
+        "correctAnswer": "Shelford's law of tolerance"
+    },
+    {
+        "question": "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called:",
+        "options": [
+            "Translocation",
+            "Migration",
+            "Dispersal",
+            "Drifting"
+        ],
+        "correctAnswer": "Dispersal"
+    }
+]
