@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomeScreen from './HomeScreen';
 import QuizScreen from './QuizScreen';
-import ResultScreen from './ResultScreen';
+import OverallQuizScreen from './OverallQuizScreen';
+import ResultScreen from './ResultScreen';ent
 import lightIcon from './assets/light.svg';
 import darkIcon from './assets/dark.svg';
 import './App.css';
@@ -29,7 +30,6 @@ const App = () => {
   return (
     <Router>
       <div className={`container ${isDarkMode ? 'dark-mode' : ''}`}>
-        {/* Dark mode toggle button */}
         <button
           className={isDarkMode ? 'dark-mode-toggle-dark' : 'dark-mode-toggle'}
           onClick={toggleDarkMode}
@@ -37,10 +37,11 @@ const App = () => {
         >
           <img src={isDarkMode ? lightIcon : darkIcon} alt={isDarkMode ? 'Light Mode' : 'Dark Mode'} />
         </button>
-        
+
         <Routes>
           <Route path="/" element={<HomeScreen />} />
-          <Route path="/quiz" element={<QuizScreen />} />
+          <Route path="/quiz/:chapterId" element={<QuizScreen />} />
+          <Route path="/overall-quiz" element={<OverallQuizScreen />} />
           <Route path="/result" element={<ResultScreen />} />
         </Routes>
       </div>

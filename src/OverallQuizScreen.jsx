@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import quizData from './assets/questions.json';
 
 const shuffleArray = (array) => array.sort(() => Math.random() - 0.5);
 
-const QuizScreen = () => {
-  const { chapterId } = useParams(); 
+const OverallQuizScreen = () => {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState('');
@@ -14,15 +13,14 @@ const QuizScreen = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const chapterQuestions = quizData[chapterId];
-    if (chapterQuestions) {
-      const shuffledQuestions = chapterQuestions.map((question) => ({
-        ...question,
-        options: shuffleArray([...question.options]),
-      }));
-      setQuestions(shuffleArray(shuffledQuestions));
-    }
-  }, [chapterId]);
+    // Combine all questions from all chapters
+    const allQuestions = quizData.flat();
+    const shuffledQuestions = allQuestions.map((question) => ({
+      ...question,
+      options: shuffleArray([...question.options]),
+    }));
+    setQuestions(shuffleArray(shuffledQuestions));
+  }, []);
 
   const handleOptionChange = (event) => {
     setSelectedOption(event.target.value);
@@ -91,4 +89,4 @@ const QuizScreen = () => {
   );
 };
 
-export default QuizScreen;
+export default OverallQuizScreen;
