@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomeScreen from './HomeScreen';
 import QuizScreen from './QuizScreen';
 import OverallQuizScreen from './OverallQuizScreen';
-import ResultScreen from './ResultScreen';ent
+import ResultScreen from './ResultScreen';
 import lightIcon from './assets/light.svg';
 import darkIcon from './assets/dark.svg';
 import './App.css';

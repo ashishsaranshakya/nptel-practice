@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import quizData from './assets/questions.json';
 
@@ -13,15 +13,31 @@ const HomeScreen = () => {
     navigate(`/overall-quiz`);
   };
 
+  const [selectedChapter, setSelectedChapter] = useState(0);
+
+  const handleChapterChange = (event) => {
+    setSelectedChapter(Number(event.target.value));
+  };
+
+  const handleStartQuiz = () => {
+    startQuiz(selectedChapter);
+  };
+
   return (
     <div className="home-screen">
       <h1>Welcome to the NPTEL Practice App</h1>
       <button onClick={startOverallQuiz}>Start Overall Quiz</button>
-      {quizData.map((chapter, index) => (
-        <button key={index} onClick={() => startQuiz(index)}>
-          Start Quiz for Chapter {index + 1}
-        </button>
-      ))}
+
+      <div className="chapter-select">
+        <select value={selectedChapter} onChange={handleChapterChange}>
+          {quizData.map((chapter, index) => (
+            <option key={index} value={index}>
+              Chapter {index + 1}
+            </option>
+          ))}
+        </select>
+        <button onClick={handleStartQuiz}>Start Quiz</button>
+      </div>
     </div>
   );
 };
