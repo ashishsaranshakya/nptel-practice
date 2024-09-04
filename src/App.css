@@ -181,7 +181,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 10px; /* Adds space between buttons */
+	gap: 10px;
 }
   
 .home-screen h1 {

@@ -10,10 +10,11 @@ const OverallQuizScreen = () => {
   const [selectedOption, setSelectedOption] = useState('');
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
+  const [isAnswered, setIsAnswered] = useState(false);
+  const [correctAnswer, setCorrectAnswer] = useState('');
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Combine all questions from all chapters
     const allQuestions = quizData.flat();
     const shuffledQuestions = allQuestions.map((question) => ({
       ...question,
@@ -27,16 +28,24 @@ const OverallQuizScreen = () => {
   };
 
   const handleSubmit = () => {
-    if (selectedOption === questions[currentQuestionIndex].correctAnswer) {
+    const currentQuestion = questions[currentQuestionIndex];
+    setCorrectAnswer(currentQuestion.correctAnswer);
+
+    if (selectedOption === currentQuestion.correctAnswer) {
       setScore(score + 1);
     }
 
-    if (currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
-      setSelectedOption('');
-    } else {
-      setIsFinished(true);
-    }
+    setIsAnswered(true);
+
+    setTimeout(() => {
+      if (currentQuestionIndex < questions.length - 1) {
+        setCurrentQuestionIndex(currentQuestionIndex + 1);
+        setSelectedOption('');
+        setIsAnswered(false);
+      } else {
+        setIsFinished(true);
+      }
+    }, 1000);
   };
 
   const goToHome = () => {
@@ -62,22 +71,31 @@ const OverallQuizScreen = () => {
             <form>
               {questions[currentQuestionIndex].options.map((option, index) => (
                 <div key={index}>
-                  <label>
+                  <label
+                    style={{
+                      backgroundColor:
+                        isAnswered && option === correctAnswer
+                          ? '#45a049'
+                          : isAnswered && option === selectedOption
+                          ? '#D04848'
+                          : '',
+                    }}>
                     <input
                       type="radio"
                       value={option}
                       checked={selectedOption === option}
                       onChange={handleOptionChange}
+                      disabled={isAnswered}
                       aria-label={option}
                     />
-                    {option}
+                    <span>{option}</span>
                   </label>
                 </div>
               ))}
             </form>
             <button
               onClick={handleSubmit}
-              disabled={!selectedOption}
+              disabled={!selectedOption || isAnswered}
               aria-label={currentQuestionIndex < questions.length - 1 ? 'Next Question' : 'Submit Quiz'}
             >
               {currentQuestionIndex < questions.length - 1 ? 'Next' : 'Submit'}
