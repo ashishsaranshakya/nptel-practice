@@ -67,7 +67,7 @@ const OverallQuizScreen = () => {
       ) : (
         questions.length > 0 && (
           <div>
-            <h2>{questions[currentQuestionIndex].question}</h2>
+            <h2>{currentQuestionIndex + 1}. {questions[currentQuestionIndex].question}</h2>
             <form>
               {questions[currentQuestionIndex].options.map((option, index) => (
                 <div key={index}>

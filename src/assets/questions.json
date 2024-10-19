@@ -390,5 +390,342 @@
             ],
             "correctAnswer": "Dispersal"
         }
-    ] 
+    ],
+    [
+        {
+            "question": "I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about",
+            "options": ["autophagy", "allelophagy", "autopathy", "allelopathy"],
+            "correctAnswer": "allelopathy"
+        },
+        {
+            "question": "Which of these is a physical factor of habitat?",
+            "options": ["soil", "moisture", "predators", "temperatures"],
+            "correctAnswer": "predators"
+        },
+        {
+            "question": "\"The rate of biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor.\" This is the statement for",
+            "options": [
+                "Liebig's law of minimum",
+                "Liebig's law of maximum",
+                "Shelford's law of tolerance",
+                "Shelford's law of intolerance"
+            ],
+            "correctAnswer": "Liebig's law of minimum"
+        },
+        {
+            "question": "Transplantation experiments are used to find",
+            "options": ["potential range", "effective range", "actual range", "economic range"],
+            "correctAnswer": "potential range"
+        },
+        {
+            "question": "\"Quick movement over large distances, often across unsuitable terrain\" is a definition of",
+            "options": ["diffusion", "secular dispersal", "jump dispersal", "drifting"],
+            "correctAnswer": "jump dispersal"
+        },
+        {
+            "question": "The movement of lions across the Gir landscape is an example of",
+            "options": ["diffusion", "secular dispersal", "jump dispersal", "drifting"],
+            "correctAnswer": "diffusion"
+        },
+        {
+            "question": "Good climate is a",
+            "options": ["chemical factor", "demographic factor", "push factor", "pull factor"],
+            "correctAnswer": "pull factor"
+        },
+        {
+            "question": "Scarcity of food is a",
+            "options": ["chemical factor", "demographic factor", "push factor", "pull factor"],
+            "correctAnswer": "push factor"
+        },
+        {
+            "question": "\"The geographical distribution of a species will be controlled by that environment factor for which the organism has the narrowest range of tolerance.\" This is the statement for",
+            "options": [
+                "Liebig's law of minimum",
+                "Liebig's law of maximum",
+                "Shelford's law of tolerance",
+                "Shelford's law of intolerance"
+            ],
+            "correctAnswer": "Shelford's law of tolerance"
+        },
+        {
+            "question": "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
+            "options": ["translocation", "migration", "dispersal", "drifting"],
+            "correctAnswer": "dispersal"
+        }
+    ],
+    [
+        {
+            "question": "According to Leopold, which of these is not a tool of habitat management",
+            "options": ["fire", "gun", "cattle", "sickle"],
+            "correctAnswer": "sickle"
+        },
+        {
+            "question": "Which of these correctly represents the process of habitat fragmentation and loss",
+            "options": [
+                "original forest --> dissection --> perforation --> fragmentation --> attrition",
+                "original forest --> dissection --> attrition --> fragmentation --> perforation",
+                "original forest --> dissection --> perforation --> attrition --> fragmentation",
+                "original forest --> dissection --> fragmentation --> perforation --> attrition"
+            ],
+            "correctAnswer": "original forest --> dissection --> perforation --> fragmentation --> attrition"
+        },
+        {
+            "question": "We prefer those areas for the creation of conservation reserve where the level of threat is",
+            "options": ["very high", "medium", "very low", "non-existent"],
+            "correctAnswer": "medium"
+        },
+        {
+            "question": "\"The subset of physical and biotic environmental factors that permit an animal (or plant) to survive and reproduce\" is the definition of",
+            "options": ["habitat", "ecosystem", "biome", "biosphere"],
+            "correctAnswer": "habitat"
+        },
+        {
+            "question": "Captive breeding is an example of",
+            "options": ["in-situ conservation", "ex-situ conservation", "in-situ preservation", "ex-situ preservation"],
+            "correctAnswer": "ex-situ conservation"
+        },
+        {
+            "question": "Which of these is a deterministic factor?",
+            "options": ["environmental variation", "forest fire", "death rate", "diseases"],
+            "correctAnswer": "death rate"
+        },
+        {
+            "question": "Which of these is a stochastic factor",
+            "options": ["birth rate", "death rate", "population structure", "environmental fluctuation"],
+            "correctAnswer": "environmental fluctuation"
+        },
+        {
+            "question": "Zoo is an example of",
+            "options": ["in-situ conservation", "ex-situ conservation", "in-situ preservation", "ex-situ preservation"],
+            "correctAnswer": "ex-situ conservation"
+        },
+        {
+            "question": "The acronym HIPPO does not include",
+            "options": ["habitat loss", "habitat enhancement", "invasive species", "human over-population"],
+            "correctAnswer": "habitat enhancement"
+        },
+        {
+            "question": "The acronym HIPPO does not include",
+            "options": ["habitat loss", "invasive species", "pollination", "pollution"],
+            "correctAnswer": "pollination"
+        }
+    ],
+    [
+        {
+            "question": "Which of these is a positive check according to Malthus?",
+            "options": ["late marriage", "war", "celibacy", "moral restraint"],
+            "correctAnswer": "war"
+        },
+        {
+            "question": "The demographic transition sees a society move from",
+            "options": [
+                "high birth rate, low death rate to low birth rate, low death rate",
+                "low birth rate, high death rate to low birth rate, low death rate",
+                "high birth rate, high death rate to low birth rate, low death rate",
+                "high birth rate, high death rate to low birth rate, high death rate"
+            ],
+            "correctAnswer": "high birth rate, high death rate to low birth rate, low death rate"
+        },
+        {
+            "question": "According to the Malthusian model",
+            "options": [
+                "population grows in geometric progression, food supply increases in arithmetic progression",
+                "population grows in geometric progression, food supply increases in geometric progression",
+                "population grows in arithmetic progression, food supply increases in arithmetic progression",
+                "population grows in arithmetic progression, food supply increases in geometric progression"
+            ],
+            "correctAnswer": "population grows in geometric progression, food supply increases in arithmetic progression"
+        },
+        {
+            "question": "The book \"An Essay on the Principle of Population\" was written by",
+            "options": ["Darwin", "Malthus", "Spencer", "Owens"],
+            "correctAnswer": "Malthus"
+        },
+        {
+            "question": "_______ is used to identify which potential impacts are relevant to assess.",
+            "options": ["screening", "scoping", "reporting", "review"],
+            "correctAnswer": "scoping"
+        },
+        {
+            "question": "Which of these is a preventive check according to Malthus?",
+            "options": ["foresight", "vice", "misery", "flood"],
+            "correctAnswer": "foresight"
+        },
+        {
+            "question": "______ determines which projects or developments require a full or partial impact assessment study.",
+            "options": ["screening", "scoping", "reporting", "review"],
+            "correctAnswer": "screening"
+        },
+        {
+            "question": "Which of these is a pillar of sustainability?",
+            "options": ["social sustainability", "industrial sustainability", "agricultural sustainability", "trans-boundary sustainability"],
+            "correctAnswer": "social sustainability"
+        },
+        {
+            "question": "Which of these is not a pillar of sustainability?",
+            "options": ["environmental sustainability", "economic sustainability", "trans-boundary sustainability", "agricultural sustainability"],
+            "correctAnswer": "trans-boundary sustainability"
+        },
+        {
+            "question": "The quantum of human impacts is given by",
+            "options": ["I = P X A X T", "I = P + A + T", "I = P + A - T", "I = P - (A+T)"],
+            "correctAnswer": "I = P X A X T"
+        }
+    ],
+    [
+        {
+            "question": "Which of these is not a climatic forcing for Earth?",
+            "options": ["changes in plates tectonics", "changes in Earth's orbit", "changes in Sun's orbit", "changes in Sun's strength"],
+            "correctAnswer": "changes in Sun's orbit"
+        },
+        {
+            "question": "Mesodebris in the context of plastic debris has fragments of size",
+            "options": [">20mm", "5-20 mm", "<5mm", "<1mm"],
+            "correctAnswer": "5-20 mm"
+        },
+        {
+            "question": "Macrodebris in the context of plastic debris has fragments of size",
+            "options": [">20mm", "5-20mm", "<5mm", "<1mm"],
+            "correctAnswer": ">20mm"
+        },
+        {
+            "question": "Any changes in natural or human systems that inadvertently increase vulnerability to climatic stimuli; an adaptation that does not succeed in reducing vulnerability but increases it instead is a definition of",
+            "options": ["adaptation", "mitigation", "maladaptation", "malmitigation"],
+            "correctAnswer": "maladaptation"
+        },
+        {
+            "question": "Which of these is not a principle of ecological restoration?",
+            "options": ["ecological integrity", "long term sustainability", "benefits and engages scientists", "informed by past and future"],
+            "correctAnswer": "benefits and engages scientists"
+        },
+        {
+            "question": "The government came up with a regulation that incandescent bulbs be replaced by LED bulbs, so that electricity consumption and release of carbon dioxide from power plants is reduced. In the context of climate change, such an action would be called",
+            "options": ["adaptation", "mitigation", "deceleration", "maladaptation"],
+            "correctAnswer": "mitigation"
+        },
+        {
+            "question": "Which of these is not a principle of ecological restoration?",
+            "options": ["ecological integrity", "short term sustainability", "benefits and engages society", "informed by past and future"],
+            "correctAnswer": "short term sustainability"
+        },
+        {
+            "question": "The ability of a system to adjust to climate change (including climate variability and extremes) to moderate potential damages, to take advantage of opportunities, or to cope with the consequences is a definition of",
+            "options": ["adaptive response", "adaptive capacity", "mitigative response", "mitigative capacity"],
+            "correctAnswer": "adaptive capacity"
+        },
+        {
+            "question": "Which of these is not a climatic forcing for Earth?",
+            "options": ["changes in plate tectonics", "changes in Earth's orbit", "changes in Moon's orbit", "changes in Sun's strength"],
+            "correctAnswer": "changes in Moon's orbit"
+        },
+        {
+            "question": "Because of climate change, Mudumalai tiger reserve is suffering from frequent droughts. The management has built several artificial water holes for animals, and fills them up regularly with tankers. In the context of climate change, such an action would be called",
+            "options": ["adaptation", "mitigation", "deceleration", "maladaptation"],
+            "correctAnswer": "adaptation"
+        }
+    ],
+    [
+        {
+            "question": "Which of these is correct?",
+            "options": ["R + G = M + F", "R + M = G + F", "R + F = M + G", "R + G + M + F = 0"],
+            "correctAnswer": "R + G = M + F"
+        },
+        {
+            "question": "Which of these is not an impact of toxic chemicals?",
+            "options": ["lethal effects", "sub-lethal effects", "reduction of existing stressors", "reduced fecundity"],
+            "correctAnswer": "reduction of existing stressors"
+        },
+        {
+            "question": "A pest population is called controlled when",
+            "options": ["it is not increasing", "it is decreasing", "it is not causing any economic damage", "it is not causing excessive economic damage"],
+            "correctAnswer": "it is not causing excessive economic damage"
+        },
+        {
+            "question": "A deciduous forest in Madhya Pradesh was converted to a mine. After the mining operations were over, the pits were filled up with soil and species of deciduous forest planted again. This is an example of",
+            "options": ["recovery", "restoration", "enhancement", "replacement"],
+            "correctAnswer": "restoration"
+        },
+        {
+            "question": "The root zone treatment plant is an example of",
+            "options": ["phytoremediation", "biological control", "biomagnification", "bioaccumulation"],
+            "correctAnswer": "phytoremediation"
+        },
+        {
+            "question": "A pest population is called uncontrolled when",
+            "options": ["it is increasing", "it is not decreasing", "it is causing some economic damage", "it is causing excessive economic damage"],
+            "correctAnswer": "it is causing excessive economic damage"
+        },
+        {
+            "question": "The impact of El Nino on fishery in Peru is explained by",
+            "options": ["match hypothesis", "mismatch hypothesis", "match-mismatch hypothesis", "none of these"],
+            "correctAnswer": "match-mismatch hypothesis"
+        },
+        {
+            "question": "Which of these is correct?",
+            "options": ["the maximum sustainable yield is near the beginning of the sigmoidal curve", "the maximum sustainable yield is near the mid-point of the sigmoidal curve", "the maximum sustainable yield is near the end of the sigmoidal curve", "none of these"],
+            "correctAnswer": "the maximum sustainable yield is near the mid-point of the sigmoidal curve"
+        },
+        {
+            "question": "Ludwig's ratchet predicts",
+            "options": ["decreasing harvesting rate", "constant harvesting rate", "increasing harvesting rate", "fluctuating harvesting rate"],
+            "correctAnswer": "increasing harvesting rate"
+        },
+        {
+            "question": "A deciduous forest in Madhya Pradesh was converted to a mine. After the mining operations were over, the pits were filled up with water and a lake was created. It is now visited by several migratory birds. This is an example of",
+            "options": ["recovery", "restoration", "enhancement", "replacement"],
+            "correctAnswer": "replacement"
+        }
+    ],
+    [
+        {
+            "question": "\"Enquiry into plants\" is a book written by",
+            "options": ["Theophrastus", "Linnaeus", "Malthus", "Humboldt"],
+            "correctAnswer": "Theophrastus"
+        },
+        {
+            "question": "The mitochondrion is a/an",
+            "options": ["sub-cellular organelle", "cell", "tissue", "organ"],
+            "correctAnswer": "sub-cellular organelle"
+        },
+        {
+            "question": "Which of these is not a pillar of sustainability?",
+            "options": ["environmental sustainability", "economic sustainability", "trans-boundary sustainability", "social sustainability"],
+            "correctAnswer": "trans-boundary sustainability"
+        },
+        {
+            "question": "Good climate is a",
+            "options": ["chemical factor", "demographic factor", "push factor", "pull factor"],
+            "correctAnswer": "pull factor"
+        },
+        {
+            "question": "Importance value varies from",
+            "options": ["0 to 10", "0 to 50", "0 to 100", "0 to 300"],
+            "correctAnswer": "0 to 300"
+        },
+        {
+            "question": "Consider the food chain: grass --> grasshopper --> frog --> snake --> hawk. In this food chain",
+            "options": ["frog is producer", "frog is consumer and carnivore", "frog is consumer and herbivore", "frog is decomposer"],
+            "correctAnswer": "frog is consumer and carnivore"
+        },
+        {
+            "question": "The juvenile mortality rate is the annual number of deaths of juveniles per",
+            "options": ["100 births", "1000 births", "100 live births", "1000 live births"],
+            "correctAnswer": "1000 live births"
+        },
+        {
+            "question": "Because of climate change, Mudumalai Tiger Reserve is suffering from frequent droughts. The management has built several artificial water holes for animals, and fills them up regularly with tankers. In the context of climate change, such an action would be called",
+            "options": ["adaptation", "mitigation", "deceleration", "maladaptation"],
+            "correctAnswer": "adaptation"
+        },
+        {
+            "question": "The scientific study of animal behaviour is called",
+            "options": ["behaviourism", "ecology", "ethology", "prey-predator dynamics"],
+            "correctAnswer": "ethology"
+        },
+        {
+            "question": "Zoo is an example of",
+            "options": ["in-situ conservation", "ex-situ conservation", "in-situ preservation", "ex-situ preservation"],
+            "correctAnswer": "ex-situ conservation"
+        }
+    ]      
 ]
