@@ -24,6 +24,7 @@ const AdminButton = () => {
 };
 
 const App = () => {
+  const [isAnalyticEnabled, setIsAnalyticEnabled] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [count, setCount] = useState(null);
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
@@ -37,7 +38,13 @@ const App = () => {
       setIsDarkMode(isDark);
       document.body.classList.toggle('dark-mode', isDark);
     }
+  }, []);
 
+  useEffect(() => {
+    setIsAnalyticEnabled(!!import.meta.env.VITE_ANALYTIC_SERVER_URL);
+  }, []);
+
+  useEffect(() => {
     const fetchCount = async () => {
       try {
         const res = await axios.post(`${import.meta.env.VITE_ANALYTIC_SERVER_URL}/take-quiz`);
@@ -49,8 +56,10 @@ const App = () => {
       }
     };
 
-    fetchCount();
-  }, []);
+    if (isAnalyticEnabled) {
+      fetchCount();
+    }
+  }, [isAnalyticEnabled])
 
   useEffect(() => {
     setCurrentPath(location.pathname);
@@ -66,7 +75,7 @@ const App = () => {
   return (
     <div className={`container ${isDarkMode ? 'dark-mode' : ''}`}>
       <div className="button-container">
-        {currentPath !== '/admin-console' && <AdminButton />}
+        {(isAnalyticEnabled && currentPath !== '/admin-console') && <AdminButton />}
         <button
           className={isDarkMode ? 'dark-mode-toggle-dark' : 'dark-mode-toggle'}
           onClick={toggleDarkMode}
@@ -81,7 +90,7 @@ const App = () => {
         <Route path="/quiz/:chapterId" element={<QuizScreen />} />
         <Route path="/overall-quiz" element={<OverallQuizScreen />} />
         <Route path="/result" element={<ResultScreen />} />
-        <Route path="/admin-console" element={<AdminConsole setCount={setCount} />} />
+        {isAnalyticEnabled && <Route path="/admin-console" element={<AdminConsole setCount={setCount} />} />}
       </Routes>
     </div>
   );
