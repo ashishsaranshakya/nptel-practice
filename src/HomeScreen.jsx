@@ -39,7 +39,7 @@ const HomeScreen = ({ count }) => {
         <button onClick={handleStartQuiz}>Start Quiz</button>
       </div>
       
-      {count && <h3>Total visitors: {count}</h3>}
+      {count && <h3>Active Users This Hour: {count}</h3>}
     </div>
   );
 };
