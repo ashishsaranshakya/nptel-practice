@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import quizData from './assets/questions.json';
 
-const HomeScreen = () => {
+const HomeScreen = ({ count }) => {
   const navigate = useNavigate();
 
   const startQuiz = (chapterId) => {
@@ -38,6 +38,8 @@ const HomeScreen = () => {
         </select>
         <button onClick={handleStartQuiz}>Start Quiz</button>
       </div>
+      
+      {count && <h3>Total visitors: {count}</h3>}
     </div>
   );
 };
