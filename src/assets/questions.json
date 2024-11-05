@@ -167,6 +167,108 @@
     ],
     [
         {
+            "question": "As we move up the food chain 'grass --> grasshopper --> frog --> snake --> hawk', what happens to the available energy?",
+            "options": [
+                "available energy decreases",
+                "available energy increases",
+                "available energy remains same",
+                "available energy is zero everywhere"
+            ],
+            "correctAnswer": "available energy decreases"
+        },
+        {
+            "question": "In the food chain 'grass --> grasshopper --> frog --> snake --> hawk', what is the role of the hawk?",
+            "options": [
+                "hawk is producer",
+                "hawk is consumer and carnivore",
+                "hawk is consumer and herbivore",
+                "hawk is decomposer"
+            ],
+            "correctAnswer": "hawk is consumer and carnivore"
+        },
+        {
+            "question": "What type of pyramid do trees --> birds --> parasites --> hyperparasites represent?",
+            "options": [
+                "upright pyramid of numbers",
+                "inverted pyramid of numbers",
+                "spindle pyramid of numbers",
+                "dumb-bell pyramid of numbers"
+            ],
+            "correctAnswer": "inverted pyramid of numbers"
+        },
+        {
+            "question": "In the food chain 'grass --> grasshopper --> frog --> snake --> hawk', what is the role of the frog?",
+            "options": [
+                "frog is producer",
+                "frog is consumer and carnivore",
+                "frog is consumer and herbivore",
+                "frog is decomposer"
+            ],
+            "correctAnswer": "frog is consumer and carnivore"
+        },
+        {
+            "question": "At the compensation point:",
+            "options": [
+                "photosynthesis = respiration",
+                "photosynthesis < respiration",
+                "photosynthesis > respiration",
+                "photosynthesis = 0"
+            ],
+            "correctAnswer": "photosynthesis = respiration"
+        },
+        {
+            "question": "The food chain 'tree --> frugivorous birds --> hawk' represents which type of pyramid of numbers?",
+            "options": [
+                "upright pyramid of numbers",
+                "inverted pyramid of numbers",
+                "spindle pyramid of numbers",
+                "dumb-bell pyramid of numbers"
+            ],
+            "correctAnswer": "spindle pyramid of numbers"
+        },
+        {
+            "question": "Glacial lakes are typical examples of:",
+            "options": [
+                "eutrophic lakes",
+                "hypereutrophic lakes",
+                "oligotrophic lakes",
+                "mesotrophic lakes"
+            ],
+            "correctAnswer": "oligotrophic lakes"
+        },
+        {
+            "question": "In the food chain 'grass --> grasshopper --> frog --> snake --> hawk', which statement is true?",
+            "options": [
+                "more numbers of hawks than grasshoppers can be supported",
+                "more numbers of grasshoppers than hawks can be supported",
+                "equal numbers of hawks and grasshoppers can be supported",
+                "none of these"
+            ],
+            "correctAnswer": "more numbers of grasshoppers than hawks can be supported"
+        },
+        {
+            "question": "If we all become vegetarians, we will be able to support a larger population. This can be explained through:",
+            "options": [
+                "10% rule",
+                "1% rule",
+                "trophic cascades",
+                "biodiversity"
+            ],
+            "correctAnswer": "10% rule"
+        },
+        {
+            "question": "Net primary productivity is given by:",
+            "options": [
+                "APAR x LUE",
+                "APAR + LUE",
+                "APAR - LUE",
+                "APAR / LUE"
+            ],
+            "correctAnswer": "APAR x LUE"
+        }
+    ],
+    [
+        {
             "question": "____ is how close the measured values are to the correct value.",
             "options": ["accuracy", "precision", "bias", "variance"],
             "correctAnswer": "accuracy"
@@ -287,108 +389,6 @@
             "question": "Which of these is not a characteristic of pioneer species?",
             "options": ["ability to grow on bare rocks", "ability to tolerate extreme temperatures", "large size", "short life span"],
             "correctAnswer": "large size"
-        }
-    ],
-    [
-        {
-            "question": "I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about:",
-            "options": [
-                "Autophagy",
-                "Allelophagy",
-                "Autopathy",
-                "Allelopathy"
-            ],
-            "correctAnswer": "Allelopathy"
-        },
-        {
-            "question": "Which of these is a physical factor of habitat?",
-            "options": [
-                "Soil",
-                "Moisture",
-                "Predators",
-                "Temperatures"
-            ],
-            "correctAnswer": "Temperatures"
-        },
-        {
-            "question": "\"The rate of biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor\" this is the statement for:",
-            "options": [
-                "Liebig's law of minimum",
-                "Liebig's law of maximum",
-                "Shelford's law of tolerance",
-                "Shelford's law of intolerance"
-            ],
-            "correctAnswer": "Liebig's law of minimum"
-        },
-        {
-            "question": "Transplantation experiments are used to find:",
-            "options": [
-                "Potential range",
-                "Effective range",
-                "Actual range",
-                "Economic range"
-            ],
-            "correctAnswer": "Potential range"
-        },
-        {
-            "question": "\"Quick movement over large distances, often across unsuitable terrain\" is a definition of:",
-            "options": [
-                "Diffusion",
-                "Secular dispersal",
-                "Jump dispersal",
-                "Drifting"
-            ],
-            "correctAnswer": "Jump dispersal"
-        },
-        {
-            "question": "The movement of lions across the Gir landscape is an example of:",
-            "options": [
-                "Diffusion",
-                "Secular dispersal",
-                "Jump dispersal",
-                "Drifting"
-            ],
-            "correctAnswer": "Diffusion"
-        },
-        {
-            "question": "Good climate is a:",
-            "options": [
-                "Chemical factor",
-                "Demographic factor",
-                "Push factor",
-                "Pull factor"
-            ],
-            "correctAnswer": "Pull factor"
-        },
-        {
-            "question": "Scarcity of food is a:",
-            "options": [
-                "Chemical factor",
-                "Demographic factor",
-                "Push factor",
-                "Pull factor"
-            ],
-            "correctAnswer": "Push factor"
-        },
-        {
-            "question": "\"The geographical distribution of a species will be controlled by that environment factor for which the organism has the narrowest range of tolerance\" this is the statement for:",
-            "options": [
-                "Liebig's law of minimum",
-                "Liebig's law of maximum",
-                "Shelford's law of tolerance",
-                "Shelford's law of intolerance"
-            ],
-            "correctAnswer": "Shelford's law of tolerance"
-        },
-        {
-            "question": "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called:",
-            "options": [
-                "Translocation",
-                "Migration",
-                "Dispersal",
-                "Drifting"
-            ],
-            "correctAnswer": "Dispersal"
         }
     ],
     [
